@@ -1,3 +1,5 @@
 def is_odd(n):
     # Function that returns a boolean. True if the number is odd, False if it is even.
-    pass
+    return n % 2 == 1
+
+#print(is_odd(0))
